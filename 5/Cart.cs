@@ -26,13 +26,14 @@ namespace Chaining
         }
         public void totalPrice()
         {
-            foreach(var d in isFile.Values)
+
+            doc.AppendLine("Total Harga: ");
+            foreach(var d in toFile.Values)
             {
-                foreach(var x in toFile.Values)
+                for (int i = 0; i<= isFile.Count;i++)
                 {
-                    double sum = (x * d);
-                    doc.AppendLine("Total Harga: " + sum);
-                    Console.WriteLine(sum); 
+                    double multy = (d*isFile.Values.ElementAt(i));
+                    doc.AppendLine("hasil" +multy);
                 }
             }
         }
@@ -47,19 +48,21 @@ namespace Chaining
         public void totalItems()
         {
             int count = isFile.Count();
-            doc.AppendLine("Total Barang: " + count);
             Console.WriteLine(count);
             doc.AppendLine("Total item: "+count);
         }
         public void showAll()
         {
+            doc.AppendLine("ShowAll Jenis: ");
             foreach(var d in toFile.Values)
             {
-                foreach(var x in isFile.Values)
-                {
-                    Console.WriteLine(d +" = "+ x);
-                    doc.AppendLine("ShowAll: " + d +" = "+ x);
-                }
+                doc.AppendLine(d.ToString());
+            }
+            
+            doc.AppendLine("ShowAll Quantity: ");
+            foreach(var x in isFile.Values)
+            {
+                doc.AppendLine(x.ToString());
             }
         }
         public void totalQuantity()

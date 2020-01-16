@@ -1,0 +1,11 @@
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.exe
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.deps.json
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.runtimeconfig.json
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.runtimeconfig.dev.json
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.dll
+D:\Users\bsi50130\Desktop\4\bin\Debug\netcoreapp3.0\4.pdb
+D:\Users\bsi50130\Desktop\4\obj\Debug\netcoreapp3.0\4.csprojAssemblyReference.cache
+D:\Users\bsi50130\Desktop\4\obj\Debug\netcoreapp3.0\4.AssemblyInfoInputs.cache
+D:\Users\bsi50130\Desktop\4\obj\Debug\netcoreapp3.0\4.AssemblyInfo.cs
+D:\Users\bsi50130\Desktop\4\obj\Debug\netcoreapp3.0\4.dll
+D:\Users\bsi50130\Desktop\4\obj\Debug\netcoreapp3.0\4.pdb
